@@ -7,7 +7,7 @@ import java.util.HashSet;
 public class Main {
     public static void main(String[] args) {
         //Scanner sc = new Scanner(System.in).useDelimiter("\n");
-        System.out.println("\t--Bibliotea--!");
+        System.out.println("\t--Biblioteca--!");
         HashSet<Libro> libreria = new HashSet<>();
         LibreriaService ls = new LibreriaService();
         ls.menuLibreria(libreria);
